@@ -1,6 +1,7 @@
 import {BrowserRouter, Route, Routes} from 'react-router';
 import Home from '../pages/home';
 import WebsiteLayout from '../layout/website-layout';
+import Booking from '../pages/booking';
 
 const MyRouter = () => {
   return (
@@ -8,7 +9,7 @@ const MyRouter = () => {
       <Routes>
         <Route path='/' element={<WebsiteLayout />}>
           <Route index element={<Home />} />
-          <Route path='booking' element={<h2>Booking</h2>} />
+          <Route path='booking' element={<Booking />} />
         </Route>
       </Routes>
     </BrowserRouter>
