@@ -4,7 +4,7 @@ import {dummyFoodItems} from '../data/menu.data';
 
 const Menu = () => {
   return (
-    <section className='custom-container mx-auto my-10'>
+    <section id='menu' className='custom-container mx-auto my-10'>
       <div className='flex justify-between mb-10'>
         <h3 className='text-4xl font-bold'>This weeks Specials!</h3>
         <Button>Online Menu</Button>

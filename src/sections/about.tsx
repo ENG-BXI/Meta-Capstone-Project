@@ -1,7 +1,7 @@
 import AboutImage from '../assets/about-image.png';
 const About = () => {
   return (
-    <section className='custom-container mx-auto flex justify-center gap-4 py-20'>
+    <section id='about' className='custom-container mx-auto flex justify-center gap-4 py-20'>
       <div className='w-1/2 p-4'>
         <h2 className='text-3xl font-bold'>Little Lemon</h2>
         <h4 className='text-xl font-semibold text-secondary-4 mb-10'>Chicago</h4>

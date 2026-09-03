@@ -2,7 +2,7 @@ import Button from '../components/button';
 import HeroImage from '../assets/Hero-image.png';
 const Hero = () => {
   return (
-    <section className='bg-primary-gray'>
+    <section id='home' className='bg-primary-gray'>
       <div className='custom-container mx-auto flex justify-between py-5'>
         <div className='flex flex-col items-start gap-2'>
           <h1 className='text-5xl font-bold text-primary-yellow'>Little Lemon</h1>
