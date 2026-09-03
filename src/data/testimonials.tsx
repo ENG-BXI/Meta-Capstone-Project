@@ -18,10 +18,5 @@ export const testimonials = [
     rate: 4,
     author: 'Emily Davis',
     text: 'Very good experience. The process was simple, fast, and the final result was impressive.'
-  },
-  {
-    rate: 4.8,
-    author: 'Mohammed Ali',
-    text: 'Professional work and excellent communication. I would definitely work with them again.'
   }
 ];
