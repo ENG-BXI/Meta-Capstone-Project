@@ -8,6 +8,7 @@
     --color-secondary-3: #EDEFEE;
     --color-secondary-4: #333333;
 }
+
 .custom-container {
-    @apply max-w-200
+    @apply max-w-200 px-3 md:px-0
 }

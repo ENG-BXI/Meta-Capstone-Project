@@ -2,7 +2,7 @@ import Logo from '../assets/logo.png';
 const Footer = () => {
   return (
     <footer className='bg-primary-gray text-secondary-3 py-10'>
-      <div className='custom-container mx-auto flex gap-10 items-start'>
+      <div className='custom-container mx-auto flex flex-col md:flex-row gap-10 items-start'>
         <img src={Logo} alt='Little Lemon Logo' />
         <div>
           <h5 className='text-primary-yellow text-md font-bold mb-2'>Doormat Navigation</h5>
