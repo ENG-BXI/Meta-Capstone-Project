@@ -14,7 +14,7 @@ const config: Config = {
 
   transformIgnorePatterns: ['node_modules/(?!react-router)'],
 
-  setupFilesAfterEnv: ['<rootDir>/src/tests/setup.ts']
+  setupFilesAfterEnv: ['<rootDir>/src/__test__/setup.ts']
 };
 
 export default config;
