@@ -75,6 +75,7 @@ const BookingForm = ({
     >
       {({ isSubmitting, setFieldValue }) => (
         <Form
+          aria-label="Booking Form"
           data-testid="booking-form"
           className="mx-auto max-w-150"
         >
@@ -194,6 +195,7 @@ const BookingForm = ({
           </div>
 
           <Button
+            ariaLabel='Make Your Reservation'
             type="submit"
             disabled={isSubmitting}
           >

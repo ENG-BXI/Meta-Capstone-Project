@@ -10,7 +10,7 @@ const Hero = () => {
           <h1 className='text-5xl font-bold text-primary-yellow'>Little Lemon</h1>
           <h3 className='text-lg text-secondary-3'>Chicago</h3>
           <p className='text-secondary-3 max-w-87.5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <Button className='mt-10' onClick={() => navigate('/booking')}>
+          <Button ariaLabel='View Reserve a Table Page' className='mt-10' onClick={() => navigate('/booking')}>
             Reserve a Table
           </Button>
         </div>
